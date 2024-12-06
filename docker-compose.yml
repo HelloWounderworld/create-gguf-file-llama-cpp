@@ -32,7 +32,6 @@ services:
       https_proxy: ${HTTPS_PROXY:-}
       ftp_proxy: ${FTP_PROXY:-}
       no_proxy: ${NO_PROXY:-}
-    user: teramatsu
     working_dir: /teramatsu/create-gguf-file-llama-cpp
     volumes:
       - ./:/teramatsu/create-gguf-file-llama-cpp
