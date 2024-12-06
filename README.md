@@ -25,4 +25,4 @@ This project is aim to create gguf file to make possible its utilization to the 
 
     pip install -r requirements/requirements-convert-hf-to-gguf.txt
 
-    python llama.cpp/convert_hf_to_gguf.py ./modelfile --outtype q8_0 --outfile ./gguf-file-complete/Llama-2-7b-chat-hf-fine-tuning-peft-q8_0.gguf
+    python llama.cpp/convert_hf_to_gguf.py ./modelfile --outtype q8_0 --outfile ./name-fine-tuned-llm.gguf
