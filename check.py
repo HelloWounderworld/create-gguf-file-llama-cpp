@@ -3,8 +3,13 @@ import os
 model_path = "./modelfile"
 required_files = [
     "config.json", 
+    "generation_config.json", 
     "pytorch_model.bin",  # ou model.safetensors
-    "tokenizer.json"
+    "pytorch_model.bin.index.json",  
+    "special_tokens_map.json",  
+    "tokenizer_config.json",
+    "tokenizer.json",
+    "tokenizer.model"
 ]
 
 # Verificar arquivos essenciais
