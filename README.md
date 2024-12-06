@@ -15,7 +15,9 @@ This project is aim to create gguf file to make possible its utilization to the 
 
     huggingface-cli login
 
-    python modelfile_download.py
+    python download_model.py
+
+    python check.py
 
     python testing_cuda_gpu.py
 
